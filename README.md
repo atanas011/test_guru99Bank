@@ -11,3 +11,21 @@ Steps to get access to test site:
 	Login credentials are allocated to you and mailed at your id
 	Login credentials are only valid for 20 days!
 	
+Day 2)
+There is a major flaw in the test case we created - there is no verification step
+The script is no-good if it can't produce Pass/Fail status
+Go ahead and modify the script: img_2
+
+There is another major flaw - the script is not production ready
+Here is how to make the script production ready:
+	A Chrome profile for testing must be created
+	(A profile is a collection of bookmarks, browser settings, extensions, passwords and history
+	- all your personal settings. Browser uses a default profile to store them.
+	If something goes wrong with the testing, you still have your default profile to fall back to
+	- your personal data still safe.)
+	 
+	The amount of time the driver should wait when searching for a GUI element should be specified
+	The code to setup and launch driver should be created as a separate method
+	All script initialization parameters like location of driver, Home URL, User Name, Password etc.
+	should be stored in a separate file (Params.java)
+	
