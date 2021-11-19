@@ -1,16 +1,17 @@
 User story:
 
-Day 1)
-You are assigned to test the "Guru99 Bank" project
-Here is a link to the AUT: http://demo.guru99.com/V4/
+Day 1)  
+You are assigned to test the "Guru99 Bank" project  
+Here is a link to the AUT: http://demo.guru99.com/V4/  
 The following test case needs to be automated: img_1
 
-Steps to get access to test site:
-	Visit http://demo.guru99.com/
-	Enter your email id
-	Login credentials are allocated to you and mailed at your id
+Steps to get access to test site:  
+	Visit http://demo.guru99.com/  
+	Enter your email id  
+	Login credentials are allocated to you and mailed at your id  
 	Login credentials are only valid for 20 days!
 	
+<<<<<<< HEAD
 Day 2)
 There is a major flaw in the test case we created - there is no verification step
 The script is no-good if it can't produce Pass/Fail status
@@ -29,3 +30,5 @@ Here is how to make the script production ready:
 	All script initialization parameters like location of driver, Home URL, User Name, Password etc.
 	should be stored in a separate file (Params.java)
 	
+=======
+>>>>>>> d2a23de312f572e95c582a021c1a40586fbde1a0
