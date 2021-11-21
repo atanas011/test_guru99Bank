@@ -11,7 +11,6 @@ Steps to get access to test site:
 	Login credentials are allocated to you and mailed at your id  
 	Login credentials are only valid for 20 days!
 	
-<<<<<<< HEAD
 Day 2)
 There is a major flaw in the test case we created - there is no verification step
 The script is no-good if it can't produce Pass/Fail status
@@ -29,6 +28,9 @@ Here is how to make the script production ready:
 	The code to setup and launch driver should be created as a separate method
 	All script initialization parameters like location of driver, Home URL, User Name, Password etc.
 	should be stored in a separate file (Params.java)
-	
-=======
->>>>>>> d2a23de312f572e95c582a021c1a40586fbde1a0
+
+Day 3)
+The client has enhanced the test scenario to include more test cases: img_3
+The best technique to automate the above test suite is to parametrize the script
+The most famous tool to store data for parametrization is MS Excel
+Go ahead and create a script to read test-data from an Excel and execute Webdriver test cases
