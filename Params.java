@@ -10,4 +10,5 @@ public class Params {
 	public static final String USERNAME = "mngr367013";
 	public static final String PASSWORD = "vYgetAm";
 	public static final String DASHBOARD_TITLE = "Guru99 Bank Manager HomePage";
+	public static final String ALLERT_TXT = "User or Password is not valid";
 }

@@ -34,3 +34,7 @@ The client has enhanced the test scenario to include more test cases: img_3
 The best technique to automate the above test suite is to parametrize the script
 The most famous tool to store data for parametrization is MS Excel
 Go ahead and create a script to read test-data from an Excel and execute Webdriver test cases
+
+Day 4)
+The test results are not user friendly
+Go ahead and create the same script using TestNg (it has better test reporting format)
