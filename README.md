@@ -23,16 +23,14 @@ Here is how to make the script production ready:
 	- all your personal settings. Browser uses a default profile to store them.
 	If something goes wrong with the testing, you still have your default profile to fall back to
 	- your personal data still safe.)
-	 
-	The amount of time the driver should wait when searching for a GUI element should be specified
-	The code to setup and launch driver should be created as a separate method
-	All script initialization parameters like location of driver, Home URL, User Name, Password etc.
-	should be stored in a separate file (Params.java)
+The amount of time the driver should wait when searching for a GUI element should be specified
+The code to setup and launch driver should be created as a separate method
+All script initialization parameters like location of driver, Home URL, User Name, Password etc. should be stored in a separate file (Params.java)
 
-Day 3)
-The client has enhanced the test scenario to include more test cases: img_3
-The best technique to automate the above test suite is to parametrize the script
-The most famous tool to store data for parametrization is MS Excel
+Day 3)  
+The client has enhanced the test scenario to include more test cases: img_3  
+The best technique to automate the above test suite is to parametrize the script  
+The most famous tool to store data for parametrization is MS Excel  
 Go ahead and create a script to read test-data from an Excel and execute Webdriver test cases
 
 Day 4)
